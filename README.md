@@ -1,1 +1,1 @@
-Bản chỉnh sửa này tập trung vào việc soạn lại dự án mẫu (Example LaTeX) của LaTeX thành web. Bên cạnh đó là mở rộng một số tính năng khác của LaTeX cơ bản vào web như footnote, footer, ..vv.. cũng được thực hiện trong bản test này.
+Bản chỉnh sửa này tập trung vào việc soạn lại dự án mẫu (Example LaTeX) của LaTeX thành web. Bên cạnh đó là mở rộng một số tính năng khác của LaTeX cơ bản vào web như footnote, footer, ..vv.. cũng được thực hiện trong bản chỉnh sửa này.
