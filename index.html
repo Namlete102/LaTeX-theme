@@ -34,7 +34,7 @@ abstract: Your abstract.
     <p class="BodyText">
         First you have to upload the image file from your computer using the upload link in the file-tree menu. 
         Then use the includegraphics command to include it in your document. Use the figure environment and the caption command to add a number and a caption to your figure. 
-        See the code for Figure <a href="#fig:wiles">1</a> in this section for an example.
+        See the code for Figure <a href="#fig:wiles">1</a> and Figure <a href="#fig:foster">2</a> in this section for an example.
     </p>
     <p class="BodyText">
         Note that your figure will automatically be placed in the most appropriate place for it, given the surrounding text and taking into account other figures or tables that may be close by.
@@ -42,8 +42,14 @@ abstract: Your abstract.
     </p>
     <p class="BodyText">
         <figure>
-            <img src="./img/Andrew Wiles.jpg" alt="Andrew Wiles">
+            <img src="./img/Andrew Wiles.jpg" alt="Andrew Wiles" onclick="openLightbox(0)">
             <figcaption id="fig:wiles">Figure 1: Nhà toán học người Anh Andrew Wiles nổi tiếng với việc chứng minh thành công định lý cuối cùng Fermat.</figcaption>
+        </figure>
+    </p>
+    <p class="BodyText">
+        <figure>
+            <img src="david foster wallace.jpg" alt="david foster wallace"  onclick="openLightbox(1)">
+            <figcaption id="fig:foster">Figure 2: The End of the Tour (2015)</figcaption>
         </figure>
     </p>
     <!-- How to add Tables -->
