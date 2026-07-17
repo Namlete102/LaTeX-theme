@@ -101,14 +101,14 @@ figure{
   display: block;
 }
 
-.figure img{
-  max-width: 60%;
-  max-height: 60%;
+figure img{
+  max-width: 80%;
+  max-height: 80%;
   cursor: pointer;
   transition: transform 0.2s;
 }
 
-.figure img:hover {
+figure img:hover {
   transform: scale(1.05);
 }
 

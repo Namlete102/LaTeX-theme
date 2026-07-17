@@ -29,6 +29,25 @@
 
       {{ content }}
       
+    <!-- GIAO DIỆN XEM ẢNH TOÀN MÀN HÌNH (LIGHTBOX) -->
+    <div class="lightbox-overlay" id="lightbox">
+      <!-- Nút đóng (X) -->
+      <span class="close-btn" onclick="closeLightbox()">&times;</span>
+
+      <!-- Nút chuyển ảnh sang trái (<) -->
+      <button class="nav-btn prev-btn" onclick="changeImage(-1)">&#10094;</button>
+
+      <!-- Khung chứa ảnh để xử lý Zoom -->
+      <div class="image-container">
+        <img id="lightbox-img" src="" alt="Zoomable Image">
+        <!-- Nút Zoom nhanh (Tùy chọn) -->
+        <div class="zoom-indicator" onclick="toggleZoom()"></div>
+      </div>
+
+      <!-- Nút chuyển ảnh sang phải (>) -->
+      <button class="nav-btn next-btn" onclick="changeImage(1)">&#10095;</button>
+    </div>
+      
     <!-- Mathjax -->
     <script type="text/javascript" id="MathJax-script" async
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
