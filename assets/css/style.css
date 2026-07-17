@@ -260,7 +260,6 @@ footer{
     padding-top: 1vh;
 }
 .footerNav{
-    color: rgb(255, 253, 252);
     margin: 20px 0;
 }
 .footerNav ul{
@@ -269,7 +268,7 @@ footer{
     list-style-type: none;
 }
 .footerNav ul li a{
-    color:#111;
+    color:rgb(255, 253, 252);
     margin: 20px;
     text-decoration: none;
     font-size: 1em;
@@ -281,13 +280,12 @@ footer{
     color:rgb(50, 78, 192); 
 }
 .footerBottom{
-    color:rgb(255, 253, 252);
     padding: 1vh;
     text-align: center;
 }
 .footerBottom p{
     font-size: 16px;
-    color:#111;
+    color:rgb(255, 253, 252);
 }
 .designer{
     text-transform: uppercase;
