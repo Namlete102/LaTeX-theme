@@ -21,13 +21,13 @@ body{
     font-size: 40px;
     padding-top: 0vh;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .LatexName{
     font-size: 27px;
     text-align: center;
-    margin-bottom: 13px;
+    margin-bottom: 20px;
 }
 .LatexDate{
     font-size: 27px;
@@ -40,7 +40,7 @@ body{
     font-weight: bold;
     font-size: 25px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .LatexAbstractText{
@@ -68,8 +68,8 @@ body{
     font-weight:900;
     font-size: 33px;
     text-align: Left;
-    margin-top: 13px;
-    margin-bottom: 20px;
+    margin-top: 43px;
+    margin-bottom: 40px;
 }
 
 
@@ -77,8 +77,8 @@ body{
     font-weight:800;
     font-size: 29px;
     text-align: Left;
-    margin-top: 13px;
-    margin-bottom: 20px;
+    margin-top: 43px;
+    margin-bottom: 40px;
 }
 
 /* Văn bản */
@@ -87,7 +87,7 @@ body{
     font-size: 23px;
     margin-top: 0px;
     text-align: justify;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     line-height: 125%;
     column-count: 1;
 }
@@ -119,8 +119,8 @@ figure img:hover {
   transform: scale(1.05);
 }
 
-figcaption {
-    margin-top: 20px;
+figure figcaption {
+    margin-top: 30px;
     text-align: center;
     font-size: 16px;
 }
@@ -222,9 +222,47 @@ figcaption {
 
 li {
     font-size: 23px;
-    margin-top: 0px;
     text-align: justify;
-    margin-bottom: 5px;
+}
+
+ul li{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+ol li{
+	margin-top: 40px;
+	margin-bottom: 40px; 
+}
+
+/* Bảng */
+
+
+.table-container table{
+    margin: 0px auto;  /* căn giữa bảng */
+    border-collapse: collapse;
+    width: 300px;
+    height:180px;
+}
+
+.table-container table th{
+    font-weight:lighter;
+    border-bottom: 1px solid white;
+}
+
+th, td {
+    /* Adds a right border to all cells */
+    border-right: 1px solid white; 
+}
+
+/* Removes the border from the very last column */
+th:last-child, td:last-child {
+    border-right: none; 
+}
+
+caption {
+  caption-side: bottom;
+  margin-top: 15px;
 }
 
 /* Mathjax */
@@ -249,10 +287,6 @@ hr{
     margin-bottom: 20px;
 }
 
-ol li{
-    margin-bottom: 10px;
-    font-size: 23px;
-}
 
 /* footer */
 
