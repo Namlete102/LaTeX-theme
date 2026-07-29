@@ -216,8 +216,6 @@ figcaption {
     font-size: 16px;
 }
 
-
-
 /* Danh sách */
 
 li {
@@ -243,6 +241,7 @@ ol li{
     border-collapse: collapse;
     width: 300px;
     height:180px;
+    font-size: 23px;
 }
 
 .table-container table th{
@@ -262,7 +261,53 @@ th:last-child, td:last-child {
 
 caption {
   caption-side: bottom;
-  margin-top: 15px;
+  margin-top: 30px;
+}
+
+/* Bibliography */
+
+.bib-title{
+    font-weight:800;
+    font-size: 29px;
+    text-align: Left;
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+
+.bib-list {
+    list-style-type: none; /* Removes the dots */
+    padding: 0;
+    margin: 0;
+}
+
+.bib-item{
+    display: table;
+    table-layout: fixed;
+    list-style-type: none;
+    width: 100%;
+    padding-bottom: 0.75em;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.bib-ref{
+    font-family: 900;
+    font-size: 23px;
+    width: 70px;
+    padding-left: 10px;
+    display: inline-block;
+    display: table-cell;
+    position: relative;
+    text-align: left;
+    vertical-align: text-top;
+    word-break: normal;
+    overflow-wrap: break-word;
+}
+
+.bib-entry{
+    font-family: 400;
+    font-size: 23px;
+    line-height: 125%;
 }
 
 /* Mathjax */
@@ -293,14 +338,17 @@ hr{
 footer{
     padding-top: 1vh;
 }
+
 .footerNav{
     margin: 20px 0;
 }
+
 .footerNav ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
+
 .footerNav ul li a{
     color:rgb(255, 253, 252);
     margin: 20px;
@@ -309,6 +357,7 @@ footer{
     opacity: 0.6;
     transition: 0.5s;
 }
+
 .footerNav ul li a:hover{
     opacity: 3;
     color:rgb(50, 78, 192); 
@@ -317,16 +366,19 @@ footer{
     padding: 1vh;
     text-align: center;
 }
+
 .footerBottom p{
     font-size: 16px;
     color:rgb(255, 253, 252);
 }
+
 .designer{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
 }
+
 @media (max-width: 700px){
     .footerNav ul{
         flex-direction: column;
