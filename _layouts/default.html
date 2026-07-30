@@ -16,7 +16,20 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
   </head>
-  <body>
+  
+  <body class="dark-theme || light-theme">
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/Namlete99/Leibniz-determinant/issues/new" target="_blank">Issues</a></li>
+                <li><a href="https://namlete102.github.io/hacked-jekyll/" target="_blank">Back to abstract</a></li>
+                <li><a href="https://namlete99.github.io/Leibniz-determinant/" target="_blank">Download PDF</a></li>
+                <li><a class="btn-toggle">Toggle Dark Mode</a></li>
+            </ul>
+        </nav>
+    </header>
+    
     <div class="Margins">
       <p class="LatexTitle">{{ page.title }}</p>
       {% if page.author %} <p class="LatexName">{{ page.author }} <a id="footnote-1-ref" href="#author1">\(^{1}\)</a></p> {% endif %}

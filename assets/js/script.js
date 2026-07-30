@@ -1,3 +1,22 @@
+  // nav
+
+      const navBar = document.querySelector("header nav");
+      let lastScrollY = window.scrollY;
+
+      window.addEventListener("scroll", () => {
+        // Check if scrolling down
+        if (window.scrollY > lastScrollY) {
+          navBar.classList.add("nav--hidden");
+        } else {
+          // Scrolling up
+          navBar.classList.remove("nav--hidden");
+        }
+
+        // Update position for next scroll check
+        lastScrollY = window.scrollY;
+      });
+      
+      
       // Danh sách các đường dẫn ảnh của bạn
       const images = [
         './img/Andrew Wiles.jpg',
