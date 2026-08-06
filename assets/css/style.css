@@ -8,11 +8,59 @@
 	font-style: normal;
 }
 
-/* Body */
+/* Body Dark Mode styles*/
 
-body{
-    background-color: rgb(40, 38, 35);
-    color: rgb(255, 253, 252);
+body.dark-theme {
+  color: #eee;
+  background: rgb(28, 26, 23);
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 3rem;
+    margin-bottom: 100px;
+}
+
+header nav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #121212;
+    transition: transform 0.3s ease-in-out; /* Animates the hiding action */
+    z-index: 1000;
+}
+
+/* This class gets added via JavaScript when scrolling down */
+nav--hidden {
+  transform: translateY(-100%);
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  color: #eeeeee;
+}
+
+header ul li a{
+    color: rgb(62, 177, 198); 
+    text-decoration: none;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+header ul li a:hover{
+    opacity: 3;
+    color:#eeeeee;
 }
 
 /* Tiêu đề LaTeX */
@@ -52,8 +100,8 @@ body{
 }
 
 .Margins{
-    padding-left: 10%;
-    width: 80%;
+    padding-left: 20%;
+    width: 60%;
 }
 
 .AbstractMargins{
@@ -316,6 +364,14 @@ caption {
   overflow-x: auto;
   overflow-y: hidden;
   max-width: 100%;
+}
+
+/* Thêm thuộc tính này cho phần tử/phương trình nhận tham chiếu */
+ 
+[id^="eq-"], 
+[id] { 
+    /* Đặt giá trị bằng chiều cao Nav (? px) + khoảng hở mong muốn (ví dụ 15px) */
+    scroll-margin-top: 170px; 
 }
 
 /* Chia đoạn */
