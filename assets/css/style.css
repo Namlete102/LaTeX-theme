@@ -419,7 +419,7 @@ footer{
     color:rgb(50, 78, 192); 
 }
 .footerBottom{
-    padding: 1vh;
+    margin-bottom: 50px;
     text-align: center;
 }
 
