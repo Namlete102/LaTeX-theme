@@ -19,3 +19,5 @@ Trong lúc làm việc với dự án nhỏ này, vô cùng cảm ơn các ngu�
 \[8] Về vấn đề **thanh nav** tham khảo từ mã nguồn https://github.com/celeste-ex3/navBar  
 
 \[9] Về vấn đề **dark/light mode** tham khảo từ bài viết https://viblo.asia/p/huong-dan-xay-dung-che-do-bong-toi-dark-mode-cho-web-bJzKmVQDZ9N
+
+\[10] Về vấn đề **tạo bảng** thì đa phần xoay bài tự động điều chỉnh chứ ko một mẫu cố định nào cả. 
